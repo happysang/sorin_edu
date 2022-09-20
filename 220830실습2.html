@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설문조사</title>
+</head>
+<body>
+    <h1>설문조사</h1>
+    <form>
+        <fieldset>
+            <legend>작성자 정보</legend>
+            <div>
+                <label>1. 작성자명</label>
+                <input type="text" placeholder="이름을 입력해주세요.">
+            </div>
+            <div></div>
+                <label>2. 연락처</label>
+                <span>
+                    <select>
+                        <option value="010">010</option>
+                        <option value="02">02</option>
+                        <option value="032">032</option>
+                        <option value="070">070</option>
+                    </select>
+                </span>
+                <span><input type="text" placeholder="가운데 번호를 입력해주세요."></span>
+                <span><input type="text" placeholder="뒷자리 번호를 입력해주세요."></span>
+            </div>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>설문답변</legend>
+            <div>
+                <h2>1. 거주지역을 선택하세요.</h2>
+                <input type="radio" value="서울" name="ads">서울
+                <input type="radio" value="경기" name="ads">경기
+                <input type="radio" value="기타" name="ads">기타
+            </div>
+            <div>
+                <h2>2. 취미를 모두 고르세요.</h2>
+                <input type="radio" value="독서">서울
+                <input type="radio" value="여행">경기
+                <input type="radio" value="코딩">기타
+            </div>
+            
+            <div>
+                <h2>3. 다음 중 횡단보도가 포함된 이미지를 고르세요.</h2>
+                <div>
+                    <img src="https://thumb.photo-ac.com/f5/f5d8fda23868c00de1053f49ced7a9e8_t.jpeg" alt="사진1" width="300px">
+                    <input type="radio" value="pico" name="pic">
+                </div>
+                
+                <div>
+                    <img src="https://cdn.pixabay.com/photo/2018/06/21/13/57/clouds-3488632__340.jpg" alt="사진1" width="300px">
+                    <input type="radio" value="picx" name="pic">
+                </div>
+            </div>
+        </fieldset>
+
+        <div>
+            <button type="submit">제출하기</button>
+        </div><br>
+    </form>
+</body>
+</html>
